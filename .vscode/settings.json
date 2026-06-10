@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.gs": "javascript"
+  },
+  "js/ts.validate.enable": true
+}
