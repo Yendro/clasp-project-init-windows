@@ -1,26 +1,50 @@
 # Dependencies
 node_modules/
+.pnp
+.pnp.js
+
+# Caches & Temporary Files
+.npm/
+.eslintcache
+.cache/
+.tmp/
+temp/
+__pycache__/
+
+# Build & Coverage
+dist/
+build/
+coverage/
+.nyc_output/
 
 # Logs
+logs/
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Environment variables
+# Environment variables & Local Context
 .env
 .env.*
-prompt.md
+.venv
 
 # OS files
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# IDE
+# IDE & Editors
 .vscode/*
 !.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# clasp local
+# Clasp local configs & credentials
 .clasprc.json
 .clasp.json
