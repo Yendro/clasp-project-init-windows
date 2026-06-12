@@ -53,7 +53,7 @@ if (!(Test-Path $permanentPath)) {
 
 # Copia los archivos del repositorio clonado (donde se ejecuta este script) a la carpeta permanente.
 # Excluye el instalador, la documentación y el historial del repositorio instalador
-Get-ChildItem -Path $PSScriptRoot -Exclude "install.ps1", "README.md", ".git" | 
+Get-ChildItem -Path $PSScriptRoot -Exclude "install.ps1", "README.md", "LICENSE", ".git" | 
     Copy-Item -Destination $permanentPath -Recurse -Force
 
 # ---------------------------------------------------------
