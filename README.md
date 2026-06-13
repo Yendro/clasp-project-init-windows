@@ -19,10 +19,10 @@ Al instalar este entorno, obtendrás un comando global en PowerShell (`newclasp`
 
 ## 🚀 Instalación
 
-**Paso 1: Clonar el repositorio**
+**Paso 1: Clonar el repositorio**  
 Clona este repositorio en cualquier lugar de tu computadora (puedes borrar la carpeta después de la instalación).
 
-**Paso 2: Habilitar la ejecución de scripts en PowerShell**
+**Paso 2: Habilitar la ejecución de scripts en PowerShell**  
 Por defecto, Windows bloquea la ejecución de scripts no firmados. Para permitir que el instalador se ejecute, abre PowerShell como Administrador y ejecuta el siguiente comando:
 
 ```PowerShell
@@ -31,7 +31,7 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 > (Presiona S o Y para confirmar si te lo pregunta).
 
-**Paso 3: Ejecutar el instalador**
+**Paso 3: Ejecutar el instalador**  
 Abre una terminal de PowerShell dentro de la carpeta clonada y ejecuta:
 
 ```PowerShell
